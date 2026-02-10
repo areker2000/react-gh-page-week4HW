@@ -372,8 +372,8 @@ function ProductModal({
                     <div className="form-floating">
                       <select
                         className="form-select"
-                        id="sugar"
-                        name="sugar"
+                        id="sugarDegree"
+                        name="sugarDegree"
                         aria-label="Floating label select example"
                         value={tempData.sugarDegree}
                         onChange={(e) => handleModalInputChange(e)}
@@ -382,7 +382,7 @@ function ProductModal({
                         <option value="halfSugar">半糖</option>
                         <option value="noSugar">無糖</option>
                       </select>
-                      <label htmlFor="sugar">糖度</label>
+                      <label htmlFor="sugarDegree">糖度</label>
                     </div>
                   </div>
                 </div>
